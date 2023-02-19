@@ -6,7 +6,11 @@ import './index.css';
 // import App3 from '/Users/admin/PlacementPrep/placement_prep/src/App3.js'
 // import App4 from '/Users/admin/PlacementPrep/placement_prep/src/App4.js' 
 // import App5 from '/Users/admin/PlacementPrep/placement_prep/src/App5.js'
-import App6 from '/Users/admin/PlacementPrep/placement_prep/src/App6.js'
+// import App6 from '/Users/admin/PlacementPrep/placement_prep/src/App6.js'
+// import App7 from '/Users/admin/PlacementPrep/placement_prep/src/App7.js'
+import App8 from '/Users/admin/PlacementPrep/placement_prep/src/App8.js'
+import { Provider } from 'react-redux';
+import { store } from '/Users/admin/PlacementPrep/placement_prep/src/redux/storeApp/store.js'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +21,11 @@ root.render(
     {/* <App3/> */}
     {/* <App4/> */}
     {/* <App5/> */}
-    <App6/>
+    {/* <App6/> */}
+    {/* <App7/> */}
+    <Provider store={store}>
+      <App8 />
+    </Provider>
   </React.StrictMode>
 );
 
