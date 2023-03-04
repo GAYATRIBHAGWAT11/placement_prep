@@ -17,9 +17,8 @@ const UseContext = () => {
 
             )
 
-
-
             )}
+
         </>
     )
 }

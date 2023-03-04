@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 // import App from './App';
 // import App2 from '/Users/admin/PlacementPrep/placement_prep/src/App2.js'
 // import App3 from '/Users/admin/PlacementPrep/placement_prep/src/App3.js'
@@ -8,10 +10,13 @@ import './index.css';
 // import App5 from '/Users/admin/PlacementPrep/placement_prep/src/App5.js'
 // import App6 from '/Users/admin/PlacementPrep/placement_prep/src/App6.js'
 // import App7 from '/Users/admin/PlacementPrep/placement_prep/src/App7.js'
-import App8 from '/Users/admin/PlacementPrep/placement_prep/src/App8.js'
-import { Provider } from 'react-redux';
-import { store } from '/Users/admin/PlacementPrep/placement_prep/src/redux/storeApp/store.js'
+// import App8 from '/Users/admin/PlacementPrep/placement_prep/src/App8.js'
+// import { Provider } from 'react-redux';
+// import { store } from '/Users/admin/PlacementPrep/placement_prep/src/redux/storeApp/store.js'
+// import App9 from '/Users/admin/PlacementPrep/placement_prep/src/App9.js'
+// import App10 from '/Users/admin/PlacementPrep/placement_prep/src/App10.js'
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,9 +28,11 @@ root.render(
     {/* <App5/> */}
     {/* <App6/> */}
     {/* <App7/> */}
-    <Provider store={store}>
+    {/* <Provider store={store}>
       <App8 />
-    </Provider>
+    </Provider> */}
+    {/* <App9/> */}
+
   </React.StrictMode>
 );
 
