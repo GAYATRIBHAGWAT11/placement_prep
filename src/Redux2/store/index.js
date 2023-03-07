@@ -1,8 +1,14 @@
-import {createStore} from 'redux'
+import { createStore } from 'redux'
 
-const reducerFun=(state={counter:0}, action)=>{
+const reducerFun = (state = { counter: 0 }, action) => {
 
+    if (action.type === "INC") {
+        return { counter: state.counter + 1 };
+    } else if (action.type === "DEC") {
+        return { counter: state.counter - 1 };
+    }
 
+    return state;
 
 }
-const store=createStore(reducerFun)
+export const store = createStore(reducerFun)

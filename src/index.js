@@ -14,10 +14,10 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // import { Provider } from 'react-redux';
 // import { store } from '/Users/admin/PlacementPrep/placement_prep/src/redux/storeApp/store.js'
 // import App9 from '/Users/admin/PlacementPrep/placement_prep/src/App9.js'
-import App10 from '/Users/admin/PlacementPrep/placement_prep/src/App10.js'
+import App11 from '/Users/admin/PlacementPrep/placement_prep/src/App11.jsx'
 import reportWebVitals from './reportWebVitals';
-import { Provider } from 'react-redux';
-import {store} from '/Users/admin/PlacementPrep/placement_prep/src/Redux2/store/index.js'
+// import { Provider } from 'react-redux';
+// import  {store}  from '/Users/admin/PlacementPrep/placement_prep/src/To-do-app/components/store/store.js'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -34,10 +34,10 @@ root.render(
       <App8 />
     </Provider> */}
     {/* <App9/> */}
-    <Provider store={store}>
-      <App10 />
-    </Provider>
-
+    {/* <Provider store={store}> */}
+      {/* <App10 /> */}
+      <App11 />
+    {/* </Provider> */}
   </React.StrictMode>
 );
 
