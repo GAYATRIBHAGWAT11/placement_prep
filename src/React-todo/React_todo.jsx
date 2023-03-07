@@ -22,7 +22,6 @@ const React_todo = () => {
 
     const removeAllFn = () => {
         setApplyInputData([])
-
     }
 
     console.log(inputData);
@@ -44,7 +43,6 @@ const React_todo = () => {
                             </div>
                         </>
                     )
-
                 })
             }
 

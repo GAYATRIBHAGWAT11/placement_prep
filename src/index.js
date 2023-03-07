@@ -18,6 +18,7 @@ import App11 from '/Users/admin/PlacementPrep/placement_prep/src/App11.jsx'
 import reportWebVitals from './reportWebVitals';
 // import { Provider } from 'react-redux';
 // import  {store}  from '/Users/admin/PlacementPrep/placement_prep/src/To-do-app/components/store/store.js'
+import App12 from '/Users/admin/PlacementPrep/placement_prep/src/App12.jsx'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -36,8 +37,9 @@ root.render(
     {/* <App9/> */}
     {/* <Provider store={store}> */}
       {/* <App10 /> */}
-      <App11 />
+      {/* <App11 /> */}
     {/* </Provider> */}
+    <App12/>
   </React.StrictMode>
 );
 
