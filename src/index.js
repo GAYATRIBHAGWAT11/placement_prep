@@ -14,12 +14,13 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // import { Provider } from 'react-redux';
 // import { store } from '/Users/admin/PlacementPrep/placement_prep/src/redux/storeApp/store.js'
 // import App9 from '/Users/admin/PlacementPrep/placement_prep/src/App9.js'
-import App11 from '/Users/admin/PlacementPrep/placement_prep/src/App11.jsx'
+// import App11 from '/Users/admin/PlacementPrep/placement_prep/src/App11.jsx'
 import reportWebVitals from './reportWebVitals';
 // import { Provider } from 'react-redux';
 // import  {store}  from '/Users/admin/PlacementPrep/placement_prep/src/To-do-app/components/store/store.js'
-import App12 from '/Users/admin/PlacementPrep/placement_prep/src/App12.jsx'
-
+// import App12 from '/Users/admin/PlacementPrep/placement_prep/src/App12.jsx'
+// import App13 from '/Users/admin/PlacementPrep/placement_prep/src/App13.js'
+import App14 from '/Users/admin/PlacementPrep/placement_prep/src/App14.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,10 +37,12 @@ root.render(
     </Provider> */}
     {/* <App9/> */}
     {/* <Provider store={store}> */}
-      {/* <App10 /> */}
-      {/* <App11 /> */}
+    {/* <App10 /> */}
+    {/* <App11 /> */}
     {/* </Provider> */}
-    <App12/>
+    {/* <App12/> */}
+    {/* <App13/> */}
+    <App14 />
   </React.StrictMode>
 );
 
